@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:paddingBottom="20sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="       上海，简称“沪”或“申”，是中国共产党的诞生地。中华人民共和国直辖市，国家中心城市，超大城市，中国的经济、交通、科技、工业、金融、贸易、会展和航运中心，首批沿海开放城市。" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="421dp"
+        android:layout_height="368dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/shanghai" />
+</FrameLayout>

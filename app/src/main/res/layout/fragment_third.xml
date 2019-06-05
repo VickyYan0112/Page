@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:paddingBottom="20sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="       天津市，简称“津”，是中华人民共和国省级行政区。为直辖市、国家中心城市、特大城市、环渤海地区经济中心、首批沿海开放城市，全国先进制造研发基地、北方国际航运核心区、金融创新运营示范区、改革开放先行区。" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/tianjin" />
+
+</FrameLayout>
